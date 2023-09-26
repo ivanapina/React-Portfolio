@@ -3,7 +3,7 @@ import profilePic from '/src/assets/profile-pic.png';
 export default function Home() {
     return (
       <div>
-        <img src={profilePic} alt="Trees" height="200" id='profilePic'/>
+        <img src={profilePic} alt="Profile Picture" height="200"/>
         <h1>About Me</h1>
         <p>
           Hello, my name is Ivana and I am a software developer with a background in Fashion and Susteinability!
