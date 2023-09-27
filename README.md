@@ -12,6 +12,8 @@ SO THAT I can demonstrate my experience building single-page applications.
 
 ## Deployed Link
 
+https://main--imaginative-semifreddo-b4cc1c.netlify.app
+
 ## GitHub Repo
 
 https://github.com/ivanapina/React-Portfolio.git
