@@ -2,21 +2,48 @@ export default function Blog() {
     return (
       <div>
         <h1>Blog Page</h1>
-        <p>
-          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-          Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-          dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-          sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-          sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-          vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-          libero. Class aptent taciti sociosqu ad litora torquent per conubia
-          nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-          lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-          in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-          bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-          est ligula suscipit velit, sed bibendum turpis dui in sapien.
-        </p>
+        <p>*This page is currently under construction*</p>
+
+<div className="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div className="col-md-6 px-0">
+      <h1 className="display-4 fst-italic">Title of a longer featured blog post</h1>
+      <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p className="lead mb-0"><a href="#" className="text-white fw-bold">Continue reading...</a></p>
+    </div>
+</div>
+
+<div className="row mb-2">
+    <div className="col-md-6">
+      <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div className="col p-4 d-flex flex-column position-static">
+          <strong className="d-inline-block mb-2 text-primary">World</strong>
+          <h3 className="mb-0">Featured post</h3>
+          <div className="mb-1 text-muted">Nov 12</div>
+          <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" className="stretched-link">Continue reading</a>
+        </div>
+        <div className="col-auto d-none d-lg-block">
+          <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
       </div>
+    </div>
+    <div className="col-md-6">
+      <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div className="col p-4 d-flex flex-column position-static">
+          <strong className="d-inline-block mb-2 text-success">Design</strong>
+          <h3 className="mb-0">Post title</h3>
+          <div className="mb-1 text-muted">Nov 11</div>
+          <p className="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" className="stretched-link">Continue reading</a>
+        </div>
+        <div className="col-auto d-none d-lg-block">
+          <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
     );
   }
