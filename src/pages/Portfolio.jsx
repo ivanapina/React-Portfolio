@@ -65,7 +65,7 @@ export default function Portfolio() {
                                     <div className='d-flex h-100'>
                                         <div className='project-text w-100 my-auto text-center text-lg-left'>
                                             <h4 className='text-white'>Paperless Fashionista</h4>
-                                            <p className='mb-0 text-white-50'>Find articles from the late 19th century Vogue magazine or today's edition of Harper's Bazaar, create virtual moodboards, and share your love for a paperless Fashion World. This project is under construction.</p>
+                                            <p className='mb-0 text-white-50'>Find articles from the late 19th century Vogue magazine or todays edition of Harpers Bazaar, create virtual moodboards, and share your love for a paperless Fashion World. This project is under construction.</p>
                                             <div className='col-auto'><a href='/Contact'><button className='btn btn-primary' id='submitButton' type='submit'>Notify Me When Deployed!</button></a></div>
                                         </div>
                                     </div>
