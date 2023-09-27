@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import gitHub from '/Users/ivanapina/React-Portfolio/src/assets/github.png';
-import linkedIn from '/Users/ivanapina/React-Portfolio/src/assets/linkedin.webp';
+import gitHub from '/src/assets/github.png';
+import linkedIn from '/src/assets/linkedin.webp';
 
 const Footer = () => {
   const location = useLocation();
