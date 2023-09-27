@@ -2,6 +2,7 @@ import { MDBInput, MDBCheckbox, MDBBtn, MDBValidation, MDBValidationItem, MDBTex
 
 export default function Contact() {
   return (
+    <div className="d-flex align-items-center justify-content-center">
     <MDBValidation noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '300px', alignContent:'center' }}>
       <h2>Contact Me</h2>
 
@@ -29,5 +30,6 @@ export default function Contact() {
         Send
       </MDBBtn>
     </MDBValidation>
+    </div>
   );
 }

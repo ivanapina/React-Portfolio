@@ -2,7 +2,7 @@ import project1 from '/Users/ivanapina/React-Portfolio/src/assets/doblepagina-ma
 import project2 from '/Users/ivanapina/React-Portfolio/src/assets/popcornheads.png';
 import project3 from '/Users/ivanapina/React-Portfolio/src/assets/weatherdashboard.png';
 
-export default function About() {
+export default function Portfolio() {
     return (
       <div>
 

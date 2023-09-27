@@ -2,7 +2,7 @@ import profilePic from '/src/assets/profile-pic.png';
 
 export default function Home() {
     return (
-      <div>
+      <div className="container text-center mb-5">
         <img src={profilePic} alt="Profile Picture" height="200"/>
         <h1>About Me</h1>
         <p>
