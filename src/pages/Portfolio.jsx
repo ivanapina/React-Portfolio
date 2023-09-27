@@ -1,4 +1,4 @@
-import project1 from '/Users/ivanapina/React-Portfolio/src/assets/doblepagina-margiela.png';
+import project1 from '/Users/ivanapina/React-Portfolio/src/assets/upyourstyle.png';
 import project2 from '/Users/ivanapina/React-Portfolio/src/assets/popcornheads.png';
 import project3 from '/Users/ivanapina/React-Portfolio/src/assets/weatherdashboard.png';
 import project4 from '/Users/ivanapina/React-Portfolio/src/assets/publicaciones.png';
