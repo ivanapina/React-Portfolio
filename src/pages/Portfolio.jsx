@@ -1,9 +1,9 @@
 import project1 from '/src/assets/upyourstyle.png';
-import project2 from '/Users/ivanapina/React-Portfolio/src/assets/popcornheads.png';
-import project3 from '/Users/ivanapina/React-Portfolio/src/assets/weatherdashboard.png';
-import project4 from '/Users/ivanapina/React-Portfolio/src/assets/publicaciones.png';
-import gitHub from '/Users/ivanapina/React-Portfolio/src/assets/githubPortfolio.png';
-import gitHub1 from '/Users/ivanapina/React-Portfolio/src/assets/githubPortfoliow.png';
+import project2 from '/src/assets/popcornheads.png';
+import project3 from '/src/assets/weatherdashboard.png';
+import project4 from '/src/assets/publicaciones.png';
+import gitHub from '/src/assets/githubPortfolio.png';
+import gitHub1 from '/src/assets/githubPortfoliow.png';
 
 export default function Portfolio() {
     return (
