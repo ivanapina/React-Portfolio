@@ -2,6 +2,7 @@ import project1 from '/src/assets/upyourstyle.png';
 import project2 from '/src/assets/popcornheads.png';
 import project3 from '/src/assets/weatherdashboard.png';
 import project4 from '/src/assets/publicaciones.png';
+import project5 from '/src/assets/careercruise.png';
 import gitHub from '/src/assets/githubPortfolio.png';
 import gitHub1 from '/src/assets/githubPortfoliow.png';
 
@@ -52,6 +53,21 @@ export default function Portfolio() {
                                             <h4 className='text-white'>Misty Weather Dashboard</h4>
                                             <p className='mb-0 text-white-50'>A seamless and minimalistic weather forecast dashboard created using third party API requests and parsing JSON data.</p>
                                             <a href="https://github.com/ivanapina/Weather-Dashboard.git"><img src={gitHub1} alt="gitHub icon" height="50"/></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='row gx-0 mb-5 mb-lg-0 justify-content-center' style={{paddingBottom: 20}}>
+                            <div className='col-lg-6'><img className='img-fluid' src={project5} alt='...'/></div>
+                            <div className='col-lg-6'>
+                                <div className='bg-black text-center h-100 project'>
+                                    <div className='d-flex h-100'>
+                                        <div className='project-text w-100 my-auto text-center text-lg-left'>
+                                            <h4 className='text-white'>Career Cruise</h4>
+                                            <p className='mb-0 text-white-50'>A seamless and minimalistic Job Board for entry-leve Full-Stack Developers.</p>
+                                            <a href="https://github.com/ivanapina/test-app"><img src={gitHub1} alt="gitHub icon" height="50"/></a>
                                         </div>
                                     </div>
                                 </div>
